@@ -26,6 +26,7 @@ function getMobileOperatingSystem() {
 <script>
 function DetectAndServe(){
     let os = getMobileOperatingSystem();
+    alert('os: ' + os);
     if (os == "Android") {
         window.location.href = "http://bit.ly/2IZG0LE"; 
     } else if (os == "iOS") {
